@@ -1,0 +1,36 @@
+body{
+	background: linear-gradient(329deg, rgba(2,0,36,1) 0%, rgba(9,121,114,1) 58%) no-repeat center;
+	height: 100vh;
+}
+
+h1, label, .btn-info{
+	color: #fff!important;
+	font-family: 'Montserrat', sans-serif!important;
+}
+
+h1, .btn-info{
+	text-transform: uppercase;
+}
+
+input{
+	padding: 0.7em;
+}
+
+.cadastro{
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+    margin: 0em 10em;
+}
+
+@media (max-width: 767px){
+	input{
+		margin:0em!important;
+	}
+
+	.cadastro, .m-2{
+		margin: 5px!important;
+	}
+
+}
