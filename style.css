@@ -3,7 +3,7 @@ body{
 	height: 100vh;
 }
 
-h1, label, .btn-info{
+h1, label, .btn-info, h2, th, td{
 	color: #fff!important;
 	font-family: 'Montserrat', sans-serif!important;
 }
