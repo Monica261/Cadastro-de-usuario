@@ -7,3 +7,7 @@
 	Para executar o projeto, basta usar o Xampp e colocar a pasta dentro de htdocs<br/>
 	dentro da pasta 'sql' está o arquivo do banco para utilizar basta importar no PhpMyAdmin.
 </p>
+
+<p>
+	<img src="tela.gif">
+</p>
