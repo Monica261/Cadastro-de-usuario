@@ -1,5 +1,7 @@
 body{
-	background: linear-gradient(329deg, rgba(2,0,36,1) 0%, rgba(9,121,114,1) 58%) no-repeat center;
+	background:#808080;
+	border-top: 12px solid #0dcaf0;
+    border-bottom: 12px solid #0dcaf0;
 	height: 100vh;
 }
 
