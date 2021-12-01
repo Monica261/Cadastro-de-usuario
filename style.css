@@ -1,7 +1,7 @@
 body{
 	background:#808080;
 	border-top: 12px solid #0dcaf0;
-    border-bottom: 12px solid #0dcaf0;
+	border-bottom: 12px solid #0dcaf0;
 	height: 100vh;
 }
 
@@ -20,11 +20,18 @@ input{
 
 .cadastro{
 	display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: auto;
-    margin: 0em 10em;
+	align-items: center;
+	flex-direction: column;
+	width: auto;
+	margin: 0em 10em;
+	background: transparent;!important;
+	border-radius: 20px;
+	padding: 80px;
+	margin-top: 40px;
+	border: 10px solid #3dd5f3;
+	box-shadow: 2px 2px 15px -5px #000000;
 }
+
 
 @media (max-width: 767px){
 	input{
@@ -33,6 +40,7 @@ input{
 
 	.cadastro, .m-2{
 		margin: 5px!important;
+		padding: 0px!important;
 	}
 
 }
